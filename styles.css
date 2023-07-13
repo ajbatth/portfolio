@@ -374,7 +374,7 @@ gap: 120px;
 .project-card{
 width: 90%;
 height: 550px;
-background-image: url(./images/projects/Project1.png);
+background-image: url(./images/projects/razorpay.PNG);
 background-size: cover;
 background-repeat: no-repeat;
 position: relative;
@@ -506,18 +506,18 @@ transform: scaleX(1);
 }
 
 #project1{
-    background-image: url(./images/projects/Project1.png);
+    background-image: url(./images/projects/razorpay.PNG);
 }
 #project2{
     margin-left: 120px;
-    background-image: url(./images/projects/Project2.png);
+    background-image: url(./images/projects/Git-Glimpse.PNG);
 }
 #project3{
-    background-image: url(./images/projects/Project3.png);
+    background-image: url(./images/projects/Modern-chair.PNG);
 }
 #project4{
     margin-left: 120px; 
-    background-image: url(./images/projects/Project4.png);
+    background-image: url(./images/projects/weather-app.PNG);
 }
 
 @media (max-width:1300px) {
@@ -599,6 +599,9 @@ transform: scaleX(1);
     position: relative;
     gap: 2rem;
     justify-content: center;
+    justify-items: center;
+    align-items: center;
+
 }
 
 .skill-fade-text{
@@ -630,7 +633,8 @@ transform: scaleX(1);
 }
 
 .skills-logo{
-    width: 90px;
+    width: 100px;
+    max-height: 100px;
     transition: all 0.5s;
 }
 
